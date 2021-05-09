@@ -1,0 +1,110 @@
+
+.pic1{
+    position: absolute;
+    width:400px;
+    padding: 10px;
+    
+    top: 0px;
+    
+    left: 0px;;
+    margin:5px;
+   
+}
+nav{
+    position:fixed;
+   
+    padding:10px;
+    margin: 5px;
+    
+    top: 1px;
+   
+
+}
+
+.pic2{
+    position: absolute;
+    width:400px;
+    padding: 10px;
+    
+    top: 350px;
+    
+    left:0;
+    margin:5px;
+
+}
+.pic3{
+    position: absolute;
+    width:400px;
+    padding: 10px;
+    
+  
+    bottom: 0;
+    left:0;
+    margin:5px;
+
+}
+.pic,.pic2,.pic3{
+    height: 300px;
+    float:left;
+}
+.maindiv{
+    position: relative;
+    width:1400px;
+    height: 1030px;
+    background-color:darkgray;
+    top: 50px;
+    left:-5px;
+    align-content: center;
+    
+
+}
+p{
+    position:absolute;
+   
+    left: 450px;
+    top: 100px;
+
+}
+.title1{
+    position: absolute;
+    left:450px
+}
+nav{
+    text-align: center;
+    position: absolute;
+    left: 475px;
+}
+h3{
+    position: absolute;
+    left: 450px;
+    top:60px;
+}
+.title2{
+    position: absolute;
+    left: 450px;
+    top:360px;
+}
+.heading2{
+    top:420px
+}
+.p2{
+    top: 470px;
+}
+.heading3{
+    
+        position: absolute;
+        left: 450px;
+        top: 770px;
+}
+.title3{
+    position: absolute;
+    left:450px;
+    bottom:250px
+}
+.p3{
+    top: 820px;
+}
+body{
+    align-content: center;
+}
+   
