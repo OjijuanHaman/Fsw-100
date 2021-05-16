@@ -1,0 +1,50 @@
+#mainC{
+    display: grid;
+    gap:1px;
+    grid-template-columns: 1fr;
+
+}
+.box{
+    width: 100%;
+      height:50px;  
+     
+}
+
+
+.pink{
+    background-color:#F5C6D6;
+}
+.hotpink{
+    background-color: #EE2E84;
+}
+.blue{
+    background-color: #85CFD8 ;
+}
+.green{
+    background-color:#8DC63F;
+}
+.orange{
+    background-color: #E76E34;
+}
+@media screen and (min-width:768px){
+    #mainC{
+        grid-template-columns: repeat(4,1fr);
+        gap: 6px;
+    }
+    #box1{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    #box6{
+        grid-column: 1/3;
+    }
+    #box7{
+        grid-column: 3/5;
+    }
+    #box8{
+        grid-column: 1/4;
+    }
+
+}
+
+
