@@ -44,12 +44,12 @@ a{
     width: 600px;
     margin: 50px;
     right: 160px;
-    top: 10px;
+    top: 100px;
     font-size: 18px;
     
 }
 h1 {
-   position: relative;
+   position: absolute;
    top: 25px;
     text-align: center;
     margin: 0px;
@@ -57,6 +57,7 @@ h1 {
 font-family: 'Nothing You Could Do', cursive;
 font-size: 75px;
 color:#f5cf83;
+right: 35px;
 
 
 
@@ -68,7 +69,7 @@ color:#f5cf83;
 }
 .learn{
     position: relative;
-    top: 130px;
+    top: 225px;
     left: 208px;
     background-color: #f5cf83;
 }
@@ -200,4 +201,87 @@ span{
 .product{
     font-family: 'Lobster Two', cursive;
     font-family: 'Nothing You Could Do', cursive;
+}
+@media  screen and (max-width: 1279px) {
+    .about{
+      width: 375px;
+    }
+ 
+    .topDiv{
+        width: 4200px;
+    }
+    body{
+        width:100%;
+    }
+    h1{
+        left: 395px;
+        color: #4a2106;
+    }
+    .aboutP , .learn{
+        display: none;
+    }
+    footer{
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        width: 330%;
+        /* justify-content: center; */
+        align-items: center;
+        zoom: 200%;
+      
+        
+    }
+    span{
+       margin-left: 400px;
+       zoom:150%
+       
+       
+       
+
+    }
+    .signUp{
+        grid-column: 1/3;
+        margin-left: 0px;
+        align-items: center;
+        height: 350px;
+        width: 725px;
+        border-right: none;
+        margin-top: 75px;
+        
+    }
+    #quote , .qP{
+        width: 725px;
+        /* margin-left: 125px; */
+        margin-top: none;
+    }
+    ul{
+        margin-left: 0px;
+        margin-top: 75px;
+        border-left: none;
+        width: 200px;
+       
+    }
+    .examples{
+        margin-left: 2100px ;
+    }
+    nav{
+        zoom: 150%;
+    }
+
+}
+@media screen and (max-width: 715px){
+        .examples{
+            margin-left: 1300px;
+            
+        }
+}
+@media screen and (max-width: 375px){
+        .examples{
+            
+        }
+}
+@media screen and (max-width: 793px){
+    .examples{
+        margin-left: 1275px;
+    }
 }
