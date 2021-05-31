@@ -7,7 +7,7 @@
     border-radius: 5%;
     height: 250px;
     margin-top: 27px;
-    
+  
 }
 nav{
     text-align: center;
@@ -61,11 +61,12 @@ right: 35px;
 
 
 
+
 }
 .blogTitle:hover , .productTitle:hover{
     font-size: 100px;
     text-transform: uppercase;
-
+    transition: all 1s;
 }
 .learn{
     position: relative;
@@ -157,10 +158,15 @@ span{
     box-shadow: 5px 5px 5px 2px black ;
 
 }
-.blog{
-    position: absolute;
-    left: 750px;
-    top: 1625px;
+.blogFoot{
+    position: relative;
+    left: 500px;
+    top: 150px;
+}
+.footP{
+    position: relative;
+    left: 500px;
+    top: 100px;
 }
 .blogPost{
     display: flex;
