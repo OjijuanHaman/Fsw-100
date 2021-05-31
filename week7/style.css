@@ -70,7 +70,7 @@ right: 35px;
 .learn{
     position: relative;
     top: 225px;
-    left: 208px;
+    left: 645px;
     background-color: #f5cf83;
 }
 body{
@@ -156,6 +156,11 @@ span{
     border-radius: 5%;
     box-shadow: 5px 5px 5px 2px black ;
 
+}
+.blog{
+    position: absolute;
+    left: 750px;
+    top: 1625px;
 }
 .blogPost{
     display: flex;
